@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Button } from 'antd';
+import 'antd/dist/reset.css';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Updated
-        </p>
+        
+      <Button type="dashed">Button</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
